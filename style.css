@@ -12,6 +12,12 @@ body {
     
 }
 
+.full-height {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .logo {
     text-decoration: none;
     display: flex;
@@ -54,4 +60,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.body-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
