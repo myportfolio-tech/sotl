@@ -80,6 +80,7 @@
     align-items: center;
     padding-left: 5%;
     overflow-y: auto;
+    scrollbar-width: none;
     
 }
 
@@ -107,15 +108,18 @@
     text-align: center;
 }
 
-.main-bottom {
 
+
+
+.home-bottom {
+    background-color: white;
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom-main {
-    background-color: white;
-    height: 500px;
-    max-width: 1200px;
-    margin: 20px;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -140,4 +144,24 @@
     object-fit: cover;
     border-radius: 15px;
     
+}
+
+.archive {
+    margin-top: 25px;
+    align-self: center;
+}
+
+.archive a {
+    text-decoration: none;
+    color: #A11311;
+    font-size: 2rem;
+    display: block;
+}
+
+.archive p {
+   margin-top: 0;
+}
+
+.archive img {
+
 }

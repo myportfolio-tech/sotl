@@ -10,9 +10,13 @@ body {
     background-color: #2B2D30;
     color: white;
     overflow-y: scroll;
-    overflow-y: auto;
-    
+    scrollbar-width: none;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 
 .full-height {
     display: flex;
