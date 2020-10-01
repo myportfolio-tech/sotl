@@ -106,3 +106,38 @@
     font-size: 2rem;
     text-align: center;
 }
+
+.main-bottom {
+
+}
+
+.bottom-main {
+    background-color: white;
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+
+.more-holder {
+    color: #2B2D30;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.more-holder img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
