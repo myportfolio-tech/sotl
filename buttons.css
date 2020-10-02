@@ -1,0 +1,37 @@
+
+.playpause label { 
+  display: block; 
+  box-sizing: border-box; 
+  width: 0; 
+  height: 47px; 
+  border-color: transparent transparent transparent white; 
+  transition: 100ms all ease; 
+  cursor: pointer; 
+  border-style: double; 
+  border-width: 0px 0 0px 30px;} 
+  
+.playpause input[type="checkbox"] { 
+visibility: hidden; } 
+
+
+.playpause input[type="checkbox"]:checked + label { 
+  border-style: solid; 
+  border-width: 25px 0 25px 45px; } 
+
+
+.playpause{
+    border:5px solid white;
+    border-radius:50%;
+    height: 75px;
+    width: 75px;
+    text-align:center;
+    position:relative;
+    background-color:#777048;
+    margin-right: 20px;
+}
+
+label{
+    position:absolute ;
+    left:17px;
+    top:8px;
+}
