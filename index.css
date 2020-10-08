@@ -103,6 +103,7 @@
     align-items: flex-start;
     justify-content: space-around;
     padding-top: 5%;
+    flex-wrap: wrap;
 }
 
 
@@ -116,6 +117,7 @@
     justify-content: space-between;
     font-size: 1.5rem;
     margin-bottom: 20px;
+    margin: 0 15px;
 }
 
 .more-holder img {
@@ -179,6 +181,7 @@
     }
 
     .home-bottom {
+        margin: 5vh 0;
         width: 100%;
     }
 }   
