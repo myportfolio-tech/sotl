@@ -162,6 +162,29 @@
    margin-top: 0;
 }
 
-.archive img {
+/* MEDIA QUERIES */
 
-}
+@media (max-width: 900px){
+    .home-main-article {
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+    }
+
+    .main-article {
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .main-right-container {
+        width: 100%;
+    }
+
+    .main-player {
+        height: 100%;
+    }
+}   

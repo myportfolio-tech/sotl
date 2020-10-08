@@ -80,9 +80,22 @@ body::-webkit-scrollbar {
 
 /* Media Queries  */
 
+
+/* RESPONSIVENESS */
+
 @media (max-width: 900px) {
-    .logo img {
-        display: none;
-    
-    }
+  .logo img {
+      display: none;
+  
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .body-container {
+    margin: 0;
+    padding: 0;
+  }
 }
