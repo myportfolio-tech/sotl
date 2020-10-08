@@ -39,25 +39,6 @@ visibility: hidden; }
 
 
 
-
-.play {
-  margin-right: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 1.5em;
-}
-
-.pause {
-  margin-right: 15%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1.5em;
-
-}
-
 .song-title {
   font-size: 2rem;
   text-align: center;

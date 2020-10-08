@@ -12,6 +12,7 @@ body {
     overflow-y: scroll;
     scrollbar-width: none;
     min-height: 100vh;
+    transition: ease all .5s;
 }
 
 body::-webkit-scrollbar {
@@ -78,28 +79,28 @@ body::-webkit-scrollbar {
 }
 
 
-/* Media Queries  */
 
 
 /* RESPONSIVENESS */
 
 @media (max-width: 900px) {
-  .logo img {
-      display: none;
   
-  }
+    .logo img {
+      display: none;
+    }
 
-  .main-header {
+    .main-header {
     flex-direction: column;
     align-items: center;
-  }
+    }
 
-  .body-container {
+    .body-container {
     margin: 0;
     padding: 0;
-  }
+    }
 
-  button {
+    button {
     max-width: 100px;
-}
+    }
+
 }
