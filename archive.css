@@ -2,19 +2,20 @@
 
 .archive-main {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 25vh 25vh 25vh 25vh;
     grid-gap: 10px;
     background-color: white;
-    justify-content: space-evenly;
+    justify-content: space-around;
     max-width: 1200px;
     margin: 20px;
-    height: 100vh;
+    
 }
 
 
-.archive-row {
+.row {
     display: grid;
-    grid-template-rows: 1f 2f;
+    grid-template-rows: 20% 80%;
     width: 100%;
     border: 1px solid red;
     margin: 0mm;
@@ -23,18 +24,23 @@
 }
 
 .article-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-grow: 1;
+    /* display: flex;
+    align-items: center; */
+    /* flex-wrap: nowrap; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 1px solid orange;
+    &::-webkit-scrollbar {
+        display: none;}
+
 }
 
 .article {
-    width: 200px;
-    height: 200px;
+    width: 30vw;
+    height: 95%;
     border: 1px solid blue;
-    margin:  15px;
+    display: inline-block;
 
 }
 
