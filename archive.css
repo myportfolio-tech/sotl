@@ -24,19 +24,22 @@
 }
 
 .article-row {
-    /* display: flex;
-    align-items: center; */
-    /* flex-wrap: nowrap; */
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+    /* overflow-x: scroll; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* overflow-y: hidden;
+    white-space: nowrap; */
     border: 1px solid orange;
-    &::-webkit-scrollbar {
-        display: none;}
+    /* &::-webkit-scrollbar {
+        display: none;} */
+    -webkit-overflow-scrolling: touch;
 
 }
 
+
 .article {
+    flex: 0 0 auto;
     width: 30vw;
     height: 95%;
     border: 1px solid blue;
