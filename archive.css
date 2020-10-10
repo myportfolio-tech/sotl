@@ -71,3 +71,40 @@
 
 }
 
+.article-title {
+    text-align: center;
+    color: #2b2d30;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.article-text {
+    text-align: center;
+    color: #2b2d30;
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 0  15px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+
+}
+
+.btn a {
+    background-color:#777048;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+
+.btn a:hover  {
+    background-color:rgba(119, 112, 72, .8);
+}
