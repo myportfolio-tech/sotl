@@ -23,6 +23,11 @@
 
 }
 
+.story h1 {
+    color:#A11311;
+    text-align: start;
+    align-self: flex-start;
+}
 
 .top-story{
     grid-column: span 6;
@@ -48,6 +53,29 @@
 }
 
 
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+
+}
+
+
+.btn a {
+    background-color:#777048;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+
+.btn a:hover  {
+    background-color:rgba(119, 112, 72, .8);
+}
 
 /* Media Queries */
 
@@ -56,11 +84,13 @@
     .stories-main {
         display: flex;
         flex-direction: column;
+
     }
 
     .story {
         width: 95vw;
         margin: 0 auto;
         height: 60vh;
+        
     }
 }
