@@ -8,7 +8,7 @@
 .stories-main {
     display: grid;
     grid-template-columns: repeat(6, minmax(100px, 1fr));
-    grid-template-rows: repeat(8, minmax(100px, 1fr));
+    grid-template-rows: repeat(8, minmax(100px, 300px));
     column-gap: 1rem;
     row-gap: 1rem;
 }
@@ -77,20 +77,48 @@
     background-color:rgba(119, 112, 72, .8);
 }
 
+
+.image-holder {
+    padding: 15px;
+    max-height: 95%;
+
+}
+
+.text-and-button {
+    padding: 15px;
+}
+
+
 /* Media Queries */
 
 
 @media (max-width: 900px) {
+    
     .stories-main {
         display: flex;
         flex-direction: column;
-
     }
 
-    .story {
+    .top-story {
         width: 95vw;
         margin: 0 auto;
-        height: 60vh;
-        
+        padding-top: 50px;
+        display: flex; 
+    }
+
+    .text-and-button {
+        flex: 1;
+    }
+
+
+    .image-holder {
+        align-self: center;
+    
+    }
+    
+    .image-holder img{
+        width: 200px;
+        height: 200px;
+    
     }
 }
