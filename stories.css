@@ -46,3 +46,21 @@
     grid-row: span 1;
 
 }
+
+
+
+/* Media Queries */
+
+
+@media (max-width: 900px) {
+    .stories-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story {
+        width: 95vw;
+        margin: 0 auto;
+        height: 60vh;
+    }
+}
