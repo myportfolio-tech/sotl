@@ -8,7 +8,7 @@
 .stories-main {
     display: grid;
     grid-template-columns: repeat(6, minmax(100px, 1fr));
-    grid-template-rows: repeat(8, minmax(100px, 300px));
+    grid-template-rows: repeat(8, minmax(100px, 1fr));
     column-gap: 1rem;
     row-gap: 1rem;
 }
@@ -31,13 +31,18 @@
 
 .top-story{
     grid-column: span 6;
-    grid-row: span 3;
+    grid-row: span 2;
     
 }
 
 .second-story{
     grid-column: span 3;
     grid-row: span 2; 
+
+}
+
+.second-story img{
+    width: 250px;
 
 }
 
@@ -99,7 +104,7 @@
         flex-direction: column;
     }
 
-    .top-story {
+    .top-story .second-story{
         width: 95vw;
         margin: 0 auto;
         padding-top: 50px;
@@ -118,7 +123,7 @@
     
     .image-holder img{
         width: 200px;
-        height: 200px;
+        /* height: 200px; */
     
     }
 }
