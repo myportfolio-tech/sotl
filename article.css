@@ -21,6 +21,7 @@ body {
 
 .title {
     margin-top: 30px;
+    margin-bottom: 20px;
     width: 100%;
     text-align: center;
     color: #A11311;
@@ -30,7 +31,6 @@ body {
 }
 
 
-
 .drop-cap { 
     color: #A11311;
     float: left; 
@@ -38,7 +38,9 @@ body {
     font-style:normal;
     font-family: sans-serif;
     padding-right: 25px;
+    line-height: 55px;
 }
+
 
 .text {
     column-count: 2;
@@ -47,10 +49,14 @@ body {
     column-width: 100%;
     padding: 0 50px;
     margin-bottom: 35px;
+    font-size: 14px; 
+    line-height: 23px;
 
 }
 
+
 .player {
+    margin-top: 15px;
     display: flex;
     align-items: center;
     padding-bottom: 50px;
@@ -63,3 +69,4 @@ body {
     .text {
     column-count: 1;
     }
+}
