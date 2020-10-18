@@ -175,6 +175,20 @@
    margin-top: 0;
 }
 
+
+.archive img {
+    width: 100px;
+
+}
+
+.archive a:hover {
+    color: rgba(161, 19, 17, .5);
+} 
+
+.archive img:hover {
+    opacity: .6;
+} 
+
 /* MEDIA QUERIES */
 
 @media (max-width: 900px){
