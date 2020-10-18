@@ -1,0 +1,30 @@
+
+
+.songs-main {
+    background-color:  white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-width: 1200px;
+    justify-items: center;
+
+}
+
+
+.player-main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+    border: 1px red solid;
+    color: black;
+}
+
+
+@media (max-width: 900px){
+
+    .songs-main {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+}
