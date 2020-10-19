@@ -12,8 +12,7 @@ body {
     justify-content: flex-start;
     background-color: white;
     justify-content: space-evenly;
-    max-width: 1200px;
-    min-height: 90vh;
+    min-width: 1200px;
     color: #2B2D30;
 }
 
@@ -46,7 +45,7 @@ body {
     column-count: 2;
     column-gap: 50px;
     column-rule: 1px solid rgba(161, 19, 17, .2);
-    column-width: 100%;
+    /* column-width: 100%; */
     padding: 0 50px;
     margin-bottom: 35px;
     font-size: 14px; 
@@ -70,9 +69,26 @@ body {
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 900px){
+
+
+    .main-article {
+        width: 600px;
+        min-width: 600px;
+
+    }
 
     .text {
-    column-count: 1;
+        column-count: 1;
+        width: 900px;
+        max-width: 90%;
     }
+
+    .article-p {
+        width: 900px;
+        max-width: 90%;
+    }
+
+
+    
 }
