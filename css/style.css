@@ -87,7 +87,48 @@ body::-webkit-scrollbar {
 }
 
 
+.main-footer{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 
+
+.footer-nav {
+    align-items: center;
+}
+
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.footer-nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+
+}
+
+
+.footer-nav a:hover {
+    color: #adadad;
+}
+
+.social-media img {
+    width: 30px;
+    vertical-align: middle;
+    
+}
 
 /* RESPONSIVENESS */
 
