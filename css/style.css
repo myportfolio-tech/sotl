@@ -4,7 +4,8 @@
 @import 'stories.css';
 @import 'songs.css';
 @import 'archive.css';
-@import 'about.css';
+@import 'article.css';
+
 
 
 *, *::before, *::after {
