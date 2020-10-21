@@ -100,6 +100,17 @@
     padding: 15px;
 }
 
+.figure p{
+    color:rgba(161, 19, 17, .7); 
+    background-color: black;
+}
+
+
+figcaption {
+    color:rgba(161, 19, 17, .7); 
+    text-align: center;
+
+}
 
 /* Media Queries */
 

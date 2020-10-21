@@ -4,8 +4,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-    
-.main-article {
+  
+.main-author {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,6 @@ body {
 }
 
 
-
 .title {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -25,9 +24,29 @@ body {
     text-align: center;
     color: #A11311;
     font-size: 1.3rem;
-
-
 }
+
+
+.body-author {
+    display: grid;
+    grid-template-columns: repeat(62, minmax(200px, 1fr));
+    column-gap: 1rem;
+}
+
+.left  {
+    grid-column: span 1;
+    background-color: red;
+}
+
+.right {
+    grid-column: span 1;
+    background-color: blue;
+}
+
+
+
+
+
 
 
 .drop-cap { 

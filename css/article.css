@@ -26,10 +26,16 @@ body {
     text-align: center;
     color: #A11311;
     font-size: 1.3rem;
-
-
 }
 
+
+blockquote {
+    color: rgba(161, 19, 17, .7);
+    border-left: 5px solid rgba(161, 19, 17, .7);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
 
 .drop-cap { 
     color: #A11311;

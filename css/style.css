@@ -130,6 +130,21 @@ body::-webkit-scrollbar {
     
 }
 
+
+
+b {
+    margin: 10px;
+}
+
+em {
+    color:rgba(161, 19, 17, .7); 
+}
+
+u {
+    text-decoration-color: rgba(161, 19, 17, .9); 
+
+}
+
 /* RESPONSIVENESS */
 
 @media (max-width: 900px) {
