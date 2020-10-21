@@ -29,20 +29,27 @@ body {
 
 .body-author {
     display: grid;
-    grid-template-columns: repeat(62, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
     column-gap: 1rem;
+    max-width: 1200px;
+    padding-bottom: 15px;
 }
 
 .left  {
-    grid-column: span 1;
-    background-color: red;
+ 
+    grid-column: 1 / span 1;
+    width: 80%;
+    margin-left: 15%;
 }
 
 .right {
-    grid-column: span 1;
-    background-color: blue;
+    grid-column: 2 / span 1;
+    width: 80%;
 }
 
+.body-author img {
+    width: 400px;
+}
 
 
 
@@ -111,19 +118,22 @@ figcaption{
 }
 
 
-@media (max-width: 900px){
-
-
-    .main-article {
-        width: 100%;
-        min-width: 600px;
-        margin: auto;
-
+@media (max-width: 900px)
+    {
+    
+    .main-author {
+        max-width: 900px;
     }
 
-    .text {
-        column-count: 1;
-        width: 90%;
-        max-width: 90%;
-    }    
+    .body-author {
+        display: inline-block;
+    }
+
+    .right {
+        display: flex;
+    }
+
+    .left {
+        display: flex;
+    }
 }
