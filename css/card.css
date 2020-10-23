@@ -2,11 +2,14 @@
 
 .card {
     width: 80%;
-    border: 1px solid rgba(161, 19, 17, .9); 
+    border: 1px solid rgba(253, 15, 11, 0.9); 
     margin: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+
 }
 
 
@@ -32,27 +35,24 @@
 
 
 .card-section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+
+.card-right {
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
 
-.left {
-    width: 65%;
-}
 
-
-.right {
-    display: flex;
-    align-content: center;
-}
-
-.right img {
+.card-right img {
     width: 120px;
-    display: flex;
-    margin:auto;
+
 
 }
+
 
 
 .card-footer {
