@@ -44,7 +44,7 @@
 
 .main-image { 
     display: flex;
-    background-image: url(/images/main-small.jpg);
+    background-image: url(../images/main-small.jpg);
     flex-grow: 1;
 }
 
