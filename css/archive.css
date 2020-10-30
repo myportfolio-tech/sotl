@@ -115,3 +115,22 @@
 .btn a:hover  {
     background-color:rgba(119, 112, 72, .8);
 }
+
+
+
+@media screen and (max-width: 900px){
+    
+
+    .archive-main {
+        width: 100%;
+        max-width: 900px;
+        min-width: 100px;
+        margin: auto; 
+
+    }
+
+    .row {
+        column-count: 1;
+        width: 100%;
+    }
+}
