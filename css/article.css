@@ -58,7 +58,7 @@ blockquote {
     margin-bottom: 35px;
     font-size: 14px; 
     line-height: 23px;
-    float: n one;
+    /* float: n one; */
 
 }
 
@@ -70,9 +70,9 @@ blockquote {
 }
 
 .article-p {
-    -webkit-column-break-before: always;
+    /* -webkit-column-break-before: always;
     break-before: column;
-    break-after: column;
+    break-after: column; */
 }
 
 
