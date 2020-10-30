@@ -62,7 +62,7 @@ blockquote {
         width: 100%;
         max-width: 900px;
         min-width: 100px;
-        margin: auto;
+        margin: 10px;
     }
 
     .text{
