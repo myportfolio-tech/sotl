@@ -93,23 +93,18 @@ figcaption{
 
 
 @media screen and (max-width: 900px){
-
+    
 
     .main-article {
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
-        min-width: 600px;
-        margin: 0; 
+        width: 100%;
+        max-width: 900px;
+        min-width: 100px;
+        margin: auto; 
 
     }
 
     .text {
         column-count: 1;
         width: 100%;
-        max-width: 100%;
-        min-width: 100%;
-        margin: 0;
-        padding: 0;
-    }    
+    }
 }

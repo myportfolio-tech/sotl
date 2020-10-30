@@ -1,7 +1,7 @@
 
 
 .card {
-    width: 80%;
+    width: 400px;
     border: 1px solid rgba(253, 15, 11, 0.9); 
     margin: auto;
     display: flex;
