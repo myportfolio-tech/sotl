@@ -37,7 +37,6 @@ body {
 }
 
 .left  {
- 
     grid-column: 1 / span 1;
     width: 80%;
     margin-left: 15%;
@@ -78,24 +77,7 @@ body {
 }
 
 
-.text {
-    column-count: 2;
-    column-gap: 50px;
-    column-rule: 1px solid rgba(161, 19, 17, .2);
-    /* column-width: 100%; */
-    padding: 0 50px;
-    margin-bottom: 35px;
-    font-size: 14px; 
-    line-height: 23px;
 
-}
-
-.text img {
-    display: inline-block;
-    padding-left: 0;
-    width: 80%;
-    max-width: 400px;
-}
 
 
 figure {
@@ -130,18 +112,50 @@ figcaption{
     {
     
     .main-author {
+        width: 100%;
+        max-width: 900px;
+        min-width: 100px;
+        margin: 10px; 
+        padding: 0 10px 10px 20px;
+
+    }
+
+
+    .body-author {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
         max-width: 900px;
     }
 
-    .body-author {
-        display: inline-block;
+    .title {
+
+        margin: 0;
+    }
+
+
+    .left {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 0 10px;
     }
 
     .right {
-        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0 0 0 10px;
     }
 
-    .left {
-        display: flex;
+    figure {
+        width: 300px;
+        padding: 0;
+        margin: auto;
     }
+
+    .body-author img {
+        width: 100%;
+    }
+
 }
