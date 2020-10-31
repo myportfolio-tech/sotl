@@ -140,11 +140,20 @@ figcaption {
     .image-holder {
         padding:0;
         margin: 0;
+
     }
     
     .image-holder img{
         object-fit: cover;
         width: 150px;
     
+    }
+
+    figure {
+        width: 150px;
+    }
+
+    .text-and-button {
+        padding: 5px 0 15px 15px;
     }
 }
